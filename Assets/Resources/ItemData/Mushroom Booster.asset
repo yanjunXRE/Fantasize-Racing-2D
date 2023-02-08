@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82cf26a3ce92cbf48b886ce73009bb08, type: 3}
+  m_Name: Mushroom Booster
+  m_EditorClassIdentifier: 
+  itemUniqueID: 0
+  itemUISprite: {fileID: 21300000, guid: 0b4e5efe93afe4b49ae68e712ca014eb, type: 3}
+  itemPrefab: {fileID: 8509155019414457977, guid: 1238f6ffa5e975e4788542ca4f002889,
+    type: 3}
