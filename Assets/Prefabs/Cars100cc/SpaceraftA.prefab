@@ -7,6 +7,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1814606739510901914, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814606739510901914, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814606739510901914, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4326715013899093059, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725671222673168359, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0000015795
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725671222673168359, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 27.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6028769504162802305, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: createItem
@@ -98,6 +128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SpaceraftA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558350185343971735, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185343971738, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}

@@ -5,12 +5,16 @@ using UnityEngine;
 public class UseItemUI : MonoBehaviour
 {
     //All code is written by Yan Jun
+    //Get the item from the ItemData array where it has a list of item functionality
     public ItemData item;
+    //Declare ItemUIHandler to check whether the item is available from the item Ui at the bottom right corner
     ItemUIHandler itemUIHandler;
+    //PointUI is a=used to add and store point to player
     PointUI pointUI;
+    //This gameObject is declared to make sure that only player can use the item
     GameObject car;
+    //This gameObject is declared to ensure that the item is used
     GameObject ItemUsed;
-    GameObject itemSpawn;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +25,7 @@ public class UseItemUI : MonoBehaviour
     void Update()
     {
 
-        //Press spacebar to use item by sing function(UseItem())
+        //Press spacebar to use item by using function(UseItem())
         if ((Input.GetKeyDown(KeyCode.Space)))
         {
             //Get the carButton position
