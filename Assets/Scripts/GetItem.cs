@@ -52,11 +52,11 @@ public class GetItem : MonoBehaviour
            * until player complete the next lap */
             Destroy(item.gameObject);
             /*To generate a random number from an array in C#, you can use the System.Random class along with the
-             * Length property of the array to determine the range of possible values. */
+             * Length property of the array to determine the range of possible values. (reference from chatGPT)*/
             System.Random random = new System.Random();
             /*the Next method is called with arguments 0 and array.Length, which generates a random number between 0
              * (inclusive) and itemData.Length (exclusive)
-             * , which can then be used as an index to access a random element in the array.*/
+             * , which can then be used as an index to access a random element in the array.(reference from chatGPT)*/
             randomNumber = random.Next(0, itemData.Length);
             //Then it will invoke function "addPointsAndGetItem" where it adds point to the player score after 0.07 seconds
             Invoke("addPointsAndGetItem", 0.07f);
@@ -67,7 +67,7 @@ public class GetItem : MonoBehaviour
     void addPointsAndGetItem()
     {
         /*"CancelInvoke()" is a method in the Unity game engine used to cancel a previously scheduled invocation of a method.
-        This is to prevent player from adding additional score to the points*/
+        This is to prevent player from adding additional score to the points(reference from chatGPT)*/
         CancelInvoke();
         //We need to get ObjectOfType<PointUI>() in order to use the varibale inside the class
         pointUI = FindObjectOfType<PointUI>();

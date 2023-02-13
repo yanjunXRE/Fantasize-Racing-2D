@@ -50,7 +50,7 @@ public class UseItemUI : MonoBehaviour
     void UseItem()
     {
         /*"CancelInvoke()" is a method in the Unity game engine used to cancel a previously scheduled invocation of a method.
-        This is to prevent player from adding additional score to the points*/
+        This is to prevent player from adding additional score to the points(reference from chat GPT)*/
         CancelInvoke();
         //Find the gameObject(P1) to get the carPosition to spawn item for other item than 'Mushroom Bootser'
         car = GameObject.Find("P1");
